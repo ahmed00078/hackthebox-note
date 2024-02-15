@@ -1,0 +1,5 @@
+Meow challenge:
+- sudo openvpn {filename.opvn}
+- ping {target_ip}
+- sudo nmap -sV 10.129.239.25
+- telnet {target_ip}
