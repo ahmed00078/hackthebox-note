@@ -52,3 +52,11 @@
 - 10.129.28.47:6379> get temp
 - 10.129.28.47:6379> get numb
 - 10.129.28.47:6379> get flag
+
+
+## Apointment challenge:
+- sudo opstarting_point_ahmed00078.ovpn8.ovpn
+- sudo nmap -sC -sV 10.129.164.88
+- http://10.129.164.88/
+- Username: admin'#
+- Password: abc123
