@@ -12,9 +12,13 @@ Welcome to my Hack The Box repository! This repository contains information abou
 - [Contributing](#contributing)
 - [License](#license)
 
+- - -
+
 ## About Hack The Box
 
 [Hack The Box](https://www.hackthebox.eu/) is an online platform that provides virtual labs for penetration testing and ethical hacking. It offers a variety of machines and challenges to test and enhance your cybersecurity skills.
+
+- - -
 
 ## Repository Structure
 
@@ -27,6 +31,8 @@ The repository is organized as follows:
 - **Notes:** General notes, tips, and tricks that I've gathered during my HTB journey.
 
 Feel free to explore the specific sections based on your interests and objectives.
+
+- - -
 
 ## Machines
 
@@ -41,6 +47,8 @@ Feel free to explore the specific sections based on your interests and objective
 - [Screenshots](./Machines/MachineName2/Screenshots/)
 
 ...
+
+- - -
 
 ## Challenges
 
@@ -62,6 +70,8 @@ Feel free to explore the specific sections based on your interests and objective
 
 ...
 
+- - -
+
 ## Contributing
 
 Feel free to contribute by adding your own write-ups, improvements, or additional resources. Follow the [contribution guidelines](CONTRIBUTING.md) for more information.
@@ -72,13 +82,6 @@ This repository is licensed under the [MIT License](LICENSE).
 
 Happy hacking!
 
-- - -
-
-### Licensing
-
-This project is licensed under the [MIT license](LICENSE).
-
-![MIT License](https://danielmiessler.com/images/mitlicense.png)
 
 —
 
