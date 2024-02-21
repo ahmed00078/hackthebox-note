@@ -34,7 +34,7 @@ HTTP verb:
 - http://104.248.39.227:10003/?username=admin'or 5=5 -- -
 
 
-<hr/>
+</hr>
 --------------------
 
 - wget http://downloads.volatilityfoundation.org/releases/2.5/volatility_2.5.linux.standalone.zip
