@@ -4,13 +4,16 @@
 - http://104.248.39.227:10001/
 - http://104.248.39.227:10001/robots.txt
 
+--
 
 - www-data
 - id = 33
 
+--
+
 - Docker hub: for study
 
-## Headache challenge:
+## challenge:
 - http://104.248.39.227:10002/
 - curl http://104.248.39.227:10002/ -H 'wanna-something:the-flag'
 
@@ -20,10 +23,14 @@ HTTP verb:
 - Get
 - Put
 - Delete
+  
+--
 
 - Post /auth http/4.5..
 - user-agent
 - Origine:
+
+--
 
 - Burp suite
 - Caido
