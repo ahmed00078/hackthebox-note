@@ -43,3 +43,8 @@ HTTP verb:
 - ./volatility_2.5_linux_x86 -f
 - ./volatility_2.5_linux_x86 -f /media/ahmed20078/ahmed78/Documents/Cyber-Projects/dump.raw imageinfo
 - ./volatility_2.5_linux_x86 -f /media/ahmed20078/ahmed78/Documents/Cyber-Projects/dump.raw --profile=Win7SP1x64
+- ./volatility_2.5_linux_x86 -f /media/ahmed20078/ahmed78/Documents/Cyber-Projects/dump.raw --profile=Win7SP1x64 printkey
+- CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}
+- ./volatility_2.5_linux_x86 -f /media/ahmed20078/ahmed78/Documents/Cyber-Projects/dump.raw --profile=Win7SP1x64 hivelist
+- ./volatility_2.5_linux_x86 -f /media/ahmed20078/ahmed78/Documents/Cyber-Projects/dump.raw --profile=Win7SP1x64 printkey -o 0xfffff8a00017d410
+- ./volatility_2.5_linux_x86 -f /media/ahmed20078/ahmed78/Documents/Cyber-Projects/dump.raw --profile=Win7SP1x64 printkey -o 0xfffff8a00017d410 -K "flag"
